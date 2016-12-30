@@ -1,0 +1,27 @@
+#include <QWitget>
+#include <QLineEdit>
+#include <QTextCodec>
+#include <QCheckBox>
+
+int main(int argc,char **argv)
+{
+	QApplication app(argc,argv);
+	
+	QTextCodec *codec = QTextCodec::
+	QTextCodec
+
+	QLineEdit le;
+	le.resize(300,300);
+	le.move(300.300);
+	le.setText(QObject::tr("yes"));
+	le.show();
+
+	QCheckBox cb;
+	cb.resize(400,500);
+	cb.move(600,300);
+	cb.setText(QOBject::tr("why"))l
+	cb.show();
+
+	return app.exec();
+
+}
